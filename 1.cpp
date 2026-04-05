@@ -6,10 +6,10 @@ int main() {
     int num1=0;
     int num2=0;
 
-    cout << "Enter the first integer" << endl;
+    cout << "Enter the first integer:" << endl;
     cin >> num1; 
 
-    cout << "Enter the second intger" << endl;
+    cout << "Enter the second integer:" << endl;
     cin >> num2;
     
 
@@ -19,7 +19,7 @@ int main() {
     }
      
     else if (num1 > num2) {
-        cout << "The larger numer is " << num1 << endl;
+        cout << "The larger number is " << num1 << endl;
     }
     else {
         cout << "Both are equal" << endl;
