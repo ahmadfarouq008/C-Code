@@ -12,7 +12,6 @@ int main() {
     float final_price=0;
 
 
-
     cout << "Enter age:" << endl;
     cin >> age;
 
@@ -82,6 +81,5 @@ int main() {
     cout << "Discount applied= $" << discount << endl;
     cout << "Final ticket price= $" << final_price << endl;
 
-    
     return 0;
 }
