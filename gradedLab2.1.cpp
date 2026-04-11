@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
     float purchase_amount = 0;
-    string first_time_buyer;
+    string first_time_buyer; //Using string allows the program to read the full word "yes" or "no" safely.char only allows single words 'y' or 'n'.
     float discount=0;
     float final_amount=0;
 
@@ -32,7 +32,7 @@ int main(){
 
     }
     
-    final_amount=purchase_amount-discount;
+    final_amount=purchase_amount-discount; //the addition will make the total final price higher not lower. subtaction will lower the the value amount as what discount means.  
 
     cout << "Original amount= $" << purchase_amount << endl;
     cout << "Discount applied= $" << discount << endl;
