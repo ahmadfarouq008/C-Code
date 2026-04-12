@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+#include<string>
 using namespace std;
 
 int main(){
@@ -7,6 +7,7 @@ int main(){
     string first_time_buyer; //Using string allows the program to read the full word "yes" or "no" safely.char only allows single words 'y' or 'n'.
     float discount=0;
     float final_amount=0;
+    string a = 'ali';
 
     cout << "Enter purchase amount:" << endl;
     cin >> purchase_amount;

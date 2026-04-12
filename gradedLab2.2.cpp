@@ -12,6 +12,8 @@ int main() {
     float final_price=0;
 
 
+
+    
     cout << "Enter age:" << endl;
     cin >> age;
 
