@@ -2,15 +2,15 @@
 using namespace std;
 
 int main () {
-    int num;
+    char ch;
 
-    cout << "enter number:";
-    cin >> num;
+    cout << "enter character:";
+    cin >> ch;
 
-    char ch = num;
+    int num = ch;
 
-    cout << "ascii cahracter =" << ch << endl;
-    cout << "back to integer=" << (int)ch << endl; 
+    cout << "ascii number =" << num << endl;
+    cout << "back to integer=" << (char)num << endl; 
     
 
 
