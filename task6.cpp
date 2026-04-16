@@ -14,7 +14,7 @@ int main() {
     int z = --x + x--;  
     // --x → x becomes 4, use 4
     // x-- → use 4, then x becomes 3
-    // z = 4 + 4 = 7
+    // z = 4 + 3 = 7
 
     cout << "y = " << y << endl;
     cout << "z = " << z << endl;
