@@ -5,8 +5,8 @@ int sumN(int n=0) {  //as the value of n is not fixed so we can take it as param
 
     int sum=0;
 
-    for (int i=0;i<=n;i++) { // here we wrote this code inside sumN function only one time but we made this for-loop code to run three times in below main function by just calling it three times. 
-        sum = sum + i;
+    for (int i=1;i<=n;i++) { // here we wrote this code inside sumN function only one time but we made this for-loop code to run three times in below main function by just calling it three times. 
+        sum += i; 
 
     }
     return sum;

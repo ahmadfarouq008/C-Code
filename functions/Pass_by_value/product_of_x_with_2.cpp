@@ -16,3 +16,5 @@ int main () {
     return 0;
 }
 
+// Note: In pass by value , we can pass any primitve data types like (int,double,char,float etc),
+// but not the advanced data types or data structures like vectors,ll, stack which are passed by pass by refernce which we will learn later. 
