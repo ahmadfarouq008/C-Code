@@ -7,7 +7,7 @@ int main() {
 
 	while (true) {
 
-	    cout << "Emter a number:";
+	    cout << "Enter a number:";
 	    cin >> n;
 
 		if (n <= 0) {
