@@ -10,7 +10,7 @@ int main() {
 	cin >> n;
 
 	while (n <= 0 ) {
-		cout << "Please enter a positive intger:";
+		cout << "Please enter a positive intger:";  // Not neccessary line.Only used for concept to get input until positve no.
 		cin >> n;
 	}
 
