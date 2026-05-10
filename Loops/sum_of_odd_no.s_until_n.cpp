@@ -5,7 +5,7 @@
     int n=0;
     int sum=0;
 
-    cout << "ENter an integer:" ;
+    cout << "Enter an integer:" ;
     cin >> n;
 
     for(int i=1;i<=n;i++) {
