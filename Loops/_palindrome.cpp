@@ -18,7 +18,7 @@ int main (){
 
         while (n>0) {
             d = n % 10;
-            reversed_n = (reversed_n * 10 ) + d ; // this finds the oppostite of original value of n i.e (original)1221 -> 1221 (reverse).
+            reversed_n = (reversed_n * 10 ) + d ; // this finds the opposite of original value of n i.e (original) 1221 -> 1221 (reverse).
             n = n / 10;
             
         }
