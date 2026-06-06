@@ -17,10 +17,10 @@ int main () {
             cout << "Subject " << j << ":" ;
             cin >> marks ;
 
-            sum = sum + marks; // 
-            average = (float)sum / 4 ;
+            sum = sum + marks;                                   // Written inside inner loop because we update/add values again and again until 4 times, contarary to 'average'.
         }
-        cout << endl;
+        average = (float)sum / 4 ;                               // we donot write it inside inner loop because average is recalculated 4 times there but only the last calculation after getting all sum is actually needed so that we donot update 'average' 4 times inside inner loop.
+        cout << endl; 
         cout << "student " << i << "-> Total = " << sum << ",Average = " << average << endl;
     }
     return 0;
