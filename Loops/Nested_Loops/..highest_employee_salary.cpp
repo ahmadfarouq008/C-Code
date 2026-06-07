@@ -20,6 +20,7 @@ int main () {
 
             total_sum += salary;
         }
+        cout << endl;
         cout << "Employee " << i << " --> Total = " << total_sum << endl;
 
         if (total_sum > highest_salary ) {
@@ -28,6 +29,7 @@ int main () {
             highest_employee = i ; 
         }   
     }
+    cout << endl;
     cout << "Highest paid employee: Employee " << highest_employee << " with " << highest_salary << " yearly" << endl ; 
     
     return 0;    
