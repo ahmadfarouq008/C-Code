@@ -38,7 +38,7 @@ int main () {
             cout << "e^" << x << " = " << sum <<  endl; 
         }
         else if (choice == 2) {
-            
+        
         }
     }
 }
