@@ -1,0 +1,6 @@
+Ali Khan:1200+500
+Sara Ahmed:2000-700
+Usman Tariq:1500+abc
+Hina Malik:800-300
+Bilal Ahmed:900+400
+Zain Ali:1000+200
